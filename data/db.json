@@ -1,0 +1,23 @@
+{
+    "blogs" : [
+        { 
+          "title": "React.js", 
+          "content": " one this is lorem content",
+          "author": "Tushar", 
+          "id": 1 
+        },
+        { 
+            "title": "Rest-Api", 
+            "content": "this is lorem content", 
+            "author": "Ankit", 
+            "id": 2 
+        },
+        { 
+            "title": "Redux Basics", 
+            "content": "this is lorem content", 
+            "author": "Tushar", 
+            "id": 3 
+        }
+    
+    ]
+}
