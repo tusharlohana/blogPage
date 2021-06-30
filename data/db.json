@@ -1,12 +1,6 @@
 {
   "blogs": [
     {
-      "title": "React.js",
-      "content": " one this is lorem content",
-      "author": "Tushar",
-      "id": 1
-    },
-    {
       "title": "Rest-Api",
       "content": "this is lorem content",
       "author": "Ankit",
@@ -31,12 +25,6 @@
       "id": 5
     },
     {
-      "title": "test 2 ",
-      "author": "author test 2",
-      "content": "content 2 ",
-      "id": 6
-    },
-    {
       "title": "test 3",
       "author": "author test 3",
       "content": "content 3",
@@ -53,12 +41,6 @@
       "author": "tushar",
       "content": "this is my blog",
       "id": 9
-    },
-    {
-      "title": "hello blogers 2",
-      "author": "fgfg",
-      "content": "Lorem ImpsumLorem ImpsumLorem ImpsumLorem ImpsumLorem ImpsumLorem ImpsumLorem ImpsumLorem ImpsumLorem ImpsumLorem ImpsumLorem ImpsumLorem ImpsumLorem ImpsumLorem ImpsumLorem ImpsumLorem ImpsumLorem ImpsumLorem ImpsumLorem ImpsumLorem Impsum",
-      "id": 10
     }
   ]
 }
