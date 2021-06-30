@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import Bloglist from './Bloglist'
 import useFetch from './useFetch'
 // var CryptoJS = require("crypto-js");
@@ -12,10 +12,10 @@ function Home() {
     //     setname("shubham")
     // }
 
-    const handleDelete = (id) => {
-        const newBlog = Blogs.filter((blog) => blog.id !== id)
-        // setBlogs(newBlog)
-    }
+    // const handleDelete = (id) => {
+    //     const newBlog = Blogs.filter((blog) => blog.id !== id)
+    //     // setBlogs(newBlog)
+    // }
     
     return (
         <>
@@ -29,7 +29,8 @@ function Home() {
             ## {} is for js in jsx  
             ## && is logical AND operator          */}
             {isLoading && <div>Loading...</div>}
-            {Blogs && <Bloglist Blogs={Blogs} title="all blogs !" handleDelete={handleDelete} />}
+            {Blogs && <Bloglist Blogs={Blogs} title="all blogs !" />}
+                            {/* handleDelete={handleDelete} */}
 
 
             {/* <Bloglist Blogs={Blogs.filter((blog)=>blog.author === "Tushar")} title="Tushar's blogs !"/> */}
